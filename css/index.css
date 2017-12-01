@@ -1,0 +1,181 @@
+body {
+    background-color: #0C6496;
+}
+
+h2 {
+    color: #FBF7D2;
+    font-size: 20px;
+    left: 55px;
+    position: absolute;
+    top: 24px;
+}
+footer {
+    background-color: #E4B00C;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper-main {
+    background-color: #FBF7D2;
+    height: 1470px;
+    margin: auto;
+    width: 894px;
+}
+
+.wrapper-content {
+    color: #995F49;
+    font-weight: 600;
+    font-size: 17px;
+    list-style: none;
+}
+
+.header {
+    background-image: url('../images/cabecera.jpg');
+    height: 367px;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 319px;
+}
+  
+.menu ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 23px;
+}
+  
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+}
+
+    .content__descrip {
+        max-width: 45%;
+        padding: 20px 0px 0px 30px;
+        position: relative;
+    }
+    .content__info {
+        color: #995F49;
+        max-width: 45%;
+        padding: 20px 24px 0px 40px;
+    }
+
+    .content__info article {
+        padding-bottom: 20px; 
+    }
+
+    .content__info p {
+        font-weight: 600px;
+        font-size: 24px;
+    }
+
+    .content__minmax {
+        color: #995F49;
+        left: 110px;
+        position: absolute;
+        top: 350px;
+        z-index: 3;
+    }
+
+    .content__bottom {
+        position: relative;
+    }
+
+        .content__bottom__price {
+            color: #995F49;
+            left: 30px;
+            position: absolute;
+            top: 50px;
+        }
+        .content__bottom__note {
+            color: #fff;
+            left: 32px;
+            position: absolute;
+            top: 442px;
+        }
+
+        .content__bottom__img {
+            max-width: 894px;
+        }
+
+    .content__header {
+        color: #995F49;
+        font-size: 19px;
+        font-weight: 600;
+        padding: 10px 30px 0px 30px;
+        text-align: justify;
+    }
+        .content__header__title {
+            background: url('../images/titulo.jpg') no-repeat;
+            color: #FBF7D2;
+            font-size: 30px;
+            height: 88px;
+            margin-top: 0px;
+            padding-left: 50px;
+        }
+
+.subtitle {
+    background: url('../images/subtitulo.png') no-repeat;
+    height: 68px;
+    position: relative;
+    width: 280px;  
+}
+
+.clock {
+    position: absolute;
+    right: 27px;
+    top: 290px;
+    z-index: 2;
+}
+    .clock__title {
+        color: #FBF7D2;
+        font-size: 25px;
+        left: 289px;
+        position: absolute;
+        top: 377px;
+        z-index: 3;
+    }
+    .clock__subt {
+        color: #FBF7D2;
+        font-size: 14px;
+        left: 281px;
+        position: absolute;
+        top: 398px;
+        z-index: 3;
+    }
+.text-telefono {
+    font-size: 17px;
+}
+      
+.text-correo {
+    font-size: 14px;
+}
+      
+.text-copyright {
+    font-size: 11px;
+}
+
+/** Estilos auxiliares **/
+
+.borde-sup {
+    border-radius: 15px 15px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    -webkit-border-radius: 15px 15px 0px 0px;
+}
+  
+.borde-inf {
+    border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+}
+
+.reset {
+    margin: 0;
+    padding: 0;
+}
